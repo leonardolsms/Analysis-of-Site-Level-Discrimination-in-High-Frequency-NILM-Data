@@ -7,7 +7,7 @@
 <!-- Open in Colab: edit the path to the notebook inside the repository -->
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/leonardolsms/Analysis-of-Site-Level-Discrimination-in-High-Frequency-NILM-Data/blob/main/notebooks/Projeto_WCNPS_26_Auditoria_versao_Final_semR9_.ipynb)
 
-Code, notebook and supplementary material for the paper presented at the **11th Workshop on Communication Networks and Power Systems (WCNPS 2026)**.
+Code, notebook and supplementary material for the paper submitted at the **11th Workshop on Communication Networks and Power Systems (WCNPS 2026)**.
 
 > **Authors:** Leonardo Santiago Melgaço Silva, Gabriel Arquelau Pimenta Rodrigues, Mariana Cabral Falqueiro, Geraldo Pereira Rocha Filho, André Luiz Marques Serrano, Vinícius Pereira Gonçalves
 > **Affiliations:** University of Brasília (UnB), Federal Institute of Brasília (IFB), State University of Southwest Bahia (UESB)
@@ -181,7 +181,7 @@ Blocks `B0`–`B10` are the cells labelled `# ===== Bn — ... =====` in the not
 - One dataset, one classifier, default hyperparameters.
 - The effect of these confounders on **appliance recognition** was not evaluated.
 
-## Citation
+<!--## Citation
 
 If you use this code or the results, please cite the paper:
 
@@ -199,7 +199,7 @@ If you use this code or the results, please cite the paper:
 
 <!-- Update with pages / DOI when the proceedings are published. -->
 
-GitHub also reads the `CITATION.cff` file in this repository ("Cite this repository").
+GitHub also reads the `CITATION.cff` file in this repository ("Cite this repository").-->
 
 ## License
 
@@ -211,7 +211,7 @@ GitHub also reads the `CITATION.cff` file in this repository ("Cite this reposit
 
 ## Contact
 
-Leonardo Santiago Melgaço Silva — <contact-leonardo.santiago@aluno.unb.br>
+Leonardo Santiago Melgaço Silva — <contact-leonardo.santiago@aluno.unb.br> or <leonardosantiago.lsms@gmail.com>
 
 Issues and questions are welcome through the [GitHub Issues](../../issues) tab.
 
@@ -220,7 +220,7 @@ Issues and questions are welcome through the [GitHub Issues](../../issues) tab.
 <details>
 <summary><b>Resumo em português</b></summary>
 
-Este repositório reúne o código, o notebook (Google Colab) e o material suplementar do artigo apresentado no **WCNPS 2026**. O trabalho audita o conjunto de dados **WHITED v1.1** e investiga se a capacidade de 12 descritores de forma de onda de prever o **local de medição** pode ser separada do kit de aquisição, da rede elétrica, do ganho do sinal e da composição de carga.
+Este repositório reúne o código, o notebook (Google Colab) e o material suplementar do artigo submetido ao **WCNPS 2026**. O trabalho audita o conjunto de dados **WHITED v1.1** e investiga se a capacidade de 12 descritores de forma de onda de prever o **local de medição** pode ser separada do kit de aquisição, da rede elétrica, do ganho do sinal e da composição de carga.
 
 Após a remoção de arquivos duplicados e de um local fora da contagem oficial (`r9`), foram analisadas **1.259 observações de 126 aparelhos, em 8 locais e 2 kits**. Um Random Forest com validação cruzada agrupada por aparelho obteve **72,1 %** de acurácia (71,5 % balanceada), subindo para **78,3 %** com a informação do kit; o ganho do kit foi de **4,5 ± 1,2 pontos percentuais** em dez partições e **nulo** nos três locais compartilhados pelos dois kits.
 
