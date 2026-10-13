@@ -25,9 +25,9 @@ Code, notebook and supplementary material for the paper submitted at the **11th 
 7. [Mapping between the paper and the notebook](#mapping-between-the-paper-and-the-notebook)
 8. [Methods at a glance](#methods-at-a-glance)
 9. [Limitations](#limitations)
-10. [Citation](#citation)
-11. [License](#license)
-12. [Contact](#contact)
+<!--10. [Citation](#citation)-->
+10. [License](#license)
+11. [Contact](#contact)
 
 ---
 
